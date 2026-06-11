@@ -1,0 +1,15 @@
+{
+  "state": {
+    "session_type": "autonomous",
+    "persona_ctx": {
+      "display_name": "Tim",
+      "role": "Head of Sales",
+      "expertise": ["sales strategy", "partnerships", "revenue growth"],
+      "communication_style": "direct and results-driven"
+    },
+    "knowledge_text": "Recent wins:\n- Acme Corp: $100k ARR, 12-month contract\n- TechStart Inc: $50k ARR, 6-month trial extending to 12\nPipeline:\n- Global Solutions Ltd: $200k potential, warm intro pending\n- Sunrise Ventures: $75k potential, needs demo",
+    "directive": "Review our top 10 prospects and identify the strongest fit for Q3. Draft outreach for the top three.",
+    "capabilities_summary": "Available tools:\n  - web_search: research company background\n  - read_github_issues: check feature requests\n  - draft_email: create outreach emails (pending approval)\n  - get_calendar_availability: check team calendars"
+  },
+  "context": {}
+}

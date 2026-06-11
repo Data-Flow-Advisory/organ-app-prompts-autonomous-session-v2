@@ -1,0 +1,14 @@
+{
+  "state": {
+    "session_type": "spec",
+    "persona_ctx": {
+      "display_name": "Matt-Proto",
+      "role": "Prototyping Lead",
+      "expertise": ["rapid prototyping", "API design", "Flask"],
+      "communication_style": "concise and pragmatic"
+    },
+    "knowledge_text": "The outbound drafts table is tenant-scoped. The OutboundDraft status machine is draft -> sent | failed | discarded. send_draft wraps gmail_mailer.send_email.",
+    "capabilities_summary": "Available tools:\n  - read_codebase: browse and read source files\n  - query_database: read-only SQL against prod\n  - read_github_issues: see planned work"
+  },
+  "context": {}
+}

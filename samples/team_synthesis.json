@@ -1,0 +1,12 @@
+{
+  "state": {
+    "session_type": "team_synthesis",
+    "persona_ctx": {
+      "display_name": "Matt",
+      "role": "CTO"
+    },
+    "directive": "Synthesise the sub-team's partial specs for the persona-handoff feature into one coherent build spec.",
+    "partial_specs_text": "ARCH (Matt-Arch, opus): Add a handoff_depth column; cap at 2; reject deeper chains.\nPROTO (Matt-Proto, gpt-4o): Reuse persona_config_json.spawn_parent_id; no new table needed.\nREVIEW (Matt-Review, gemini): Risk — dev-tier handoffs need operator approval before claim."
+  },
+  "context": {}
+}
